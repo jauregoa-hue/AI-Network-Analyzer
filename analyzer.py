@@ -141,7 +141,7 @@ def detect_anomalies(packets: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     - source port
     - destination port
 
-    It is not a full cybersecurity AI yet, but it gives you a real starting point.
+    It is not a full cybersecurity AI yet, but it gives a real starting point.
     """
     if len(packets) < 10:
         return []
@@ -192,7 +192,7 @@ def detect_anomalies(packets: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
 
 def generate_security_notes(summary: Dict[str, Any], anomalies: List[Dict[str, Any]]) -> List[str]:
     """
-    Generates simple human-readable security notes.
+    Generates simple readable security notes.
     """
     notes = []
 
